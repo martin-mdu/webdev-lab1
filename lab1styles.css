@@ -1,0 +1,205 @@
+head {
+    background-color: #222222;
+    font-family: 'Courier New', Courier, monospace;
+    color: #DDDDDD;
+}
+
+
+
+
+.top_page {
+    width: 100%;
+    display: flex;
+}
+
+.top_left {
+    width: 20%;
+}
+
+#logo {
+    height: 1.5cm;
+    width: 1.5cm;
+    border-radius: 50%;
+    margin: 0.15cm;
+}
+
+.top_right {
+    width: 80%; 
+    text-align: end;
+    align-content: center;
+}
+
+.search_bar {
+    text-align: end;
+    margin: 0.15cm;
+}
+
+#search_bar_1 {
+    margin-left: 0.15cm;
+    border-radius: 0.5cm;
+}
+
+
+.extra_links {
+    text-align: end;
+    margin-top: 0.3cm;
+}
+
+
+
+
+.first_section {
+    width: 100%;
+}
+
+.news_part {
+    height: 5cm;
+    margin: 0.15cm;
+    overflow: hidden;
+}
+
+#picture_1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 60%;
+    display: block;
+}
+
+
+
+
+.second_section {
+    width: 100%;
+    display: flex;     
+}
+
+.events_part {
+    width: 30%;
+    height: 5cm;
+    background-color: rgb(35, 72, 173);
+    margin: 0.15cm;
+}
+
+#events_tab {
+    margin: 0.15cm;
+}
+
+#events_hr {
+    font-size: 2cm;
+    margin: 0.15cm;
+    color: #DDDDDD;
+}
+
+#events_ul {
+    margin: 0.15cm;
+}
+
+#events_links_div {
+    margin: 0.15cm;
+    text-align: center;
+}
+
+.link_even_more_events {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+.link_more_events {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+
+.news2_part {
+    width: 30%;
+    height: 5cm;
+    background-color: rgb(35, 72, 173);
+    margin: 0.15cm;
+}
+
+.text5_part {
+    width: 40%;
+    height: 5cm;
+    margin: 0.15cm;
+    background-color: rgb(35, 72, 173);
+    display: flex;
+}
+
+.part5_img_div {
+    width: 50%;
+    overflow: hidden;
+}
+
+
+#picture_2 {
+    width: 190%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.part5_text_div {
+    width: 50%;
+}
+
+#text_tab {
+    margin: 0.15cm;
+}
+
+#text_hr {
+    font-size: 2cm;
+    margin: 0.15cm;
+    color: #DDDDDD;
+}
+
+
+
+
+.third_section {
+    width: 100%;
+    display: flex;     
+}
+
+
+.video_part {
+    height: 5cm;
+    width: 30%;
+    margin: 0.15cm;
+    background-color: rgb(35, 72, 173);
+}
+
+
+.text7_part {
+    height: 5cm;
+    width: 40%;
+    background-color: rgb(35, 72, 173);
+    margin: 0.15cm;
+}
+
+.feed_part {
+    height: 5cm;
+    width: 30%;
+    background-color: rgb(35, 72, 173);
+    margin: 0.15cm;
+}
+
+
+
+
+
+body {
+    background-color: #222222;
+    font-family: 'Courier New', Courier, monospace;
+    color: #DDDDDD;
+    margin-top: 0.3cm;  
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-bottom: 0.3cm;
+}
+
+.active {
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: #BBBBBB;
+}
