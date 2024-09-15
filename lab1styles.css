@@ -4,16 +4,90 @@ head {
     color: #DDDDDD;
 }
 
-
+body {
+    background-color: #222222;
+    font-family: 'Courier New', Courier, monospace;
+    color: #DDDDDD;
+    margin-top: 0.3cm;  
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-bottom: 0.3cm;
+}
 
 
 .top_page {
     width: 100%;
-    display: flex;
+    height: 3cm;
 }
 
-.top_left {
-    width: 20%;
+
+span#circle{
+    float: left;
+    border-radius: 50%;
+    margin-left: 0.5cm;
+    margin-top: 0.5cm;
+    width: 2cm;
+    height: 2cm;
+}
+
+span#circle img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+span#linksPlace{
+    float: right;
+    height: 2cm;
+    width: 65%;
+    margin-top: 0.5cm;
+    background-color: #222222;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    margin-right: 0.1cm;
+}
+
+div#topNav, div#bottomNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.3cm;
+}
+
+div#topNav a, div#bottomNav a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.4s;
+}
+
+div#topNav a:hover, div#bottomNav a:hover {
+    background-color: grey; 
+    border-radius: 0.2cm;
+}
+
+div#topNav input[type="text"] {
+    padding: 0.35cm;
+    width: 5cm;
+    border: none;
+    border-radius: 0.5cm;
+}
+
+
+div#bottomNav a {
+    background-color: rgb(9, 143, 177);
+    border-radius: 0.2cm;
+    
+}
+
+div#bottomNav a:hover {
+    background-color: grey;
 }
 
 #logo {
@@ -184,19 +258,6 @@ head {
     margin: 0.15cm;
 }
 
-
-
-
-
-body {
-    background-color: #222222;
-    font-family: 'Courier New', Courier, monospace;
-    color: #DDDDDD;
-    margin-top: 0.3cm;  
-    margin-left: 3cm;
-    margin-right: 3cm;
-    margin-bottom: 0.3cm;
-}
 
 .active {
     transition: all 0.4s ease;
