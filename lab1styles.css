@@ -242,7 +242,7 @@ div#bottomNav a:hover {
 
 
 .video_part {
-    height: 5cm;
+    height: 10cm;
     width: 30%;
     margin: 0.15cm;
     background-color: rgb(35, 72, 173);
@@ -250,17 +250,19 @@ div#bottomNav a:hover {
 
 
 .text7_part {
-    height: 5cm;
+    height: 10cm;
     width: 40%;
     background-color: rgb(35, 72, 173);
     margin: 0.15cm;
 }
 
 .feed_part {
-    height: 5cm;
+    height: 10cm;
     width: 30%;
     background-color: rgb(35, 72, 173);
     margin: 0.15cm;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 
