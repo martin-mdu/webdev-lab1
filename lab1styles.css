@@ -211,6 +211,9 @@ div#bottom_nav a:hover {
 
 .part5_text_div {
     width: 50%;
+    margin-left: 0.25cm;
+    margin-right: 0.25cm;
+    margin-bottom: 0.10cm;
 }
 
 #text_tab {
