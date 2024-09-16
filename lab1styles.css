@@ -37,7 +37,7 @@ span#circle img {
     object-fit: cover; 
 }
 
-span#linksPlace{
+span#links_place{
     float: right;
     height: 2cm;
     width: 65%;
@@ -54,25 +54,25 @@ a:link {
     margin-right: 0.1cm;
 }
 
-div#topNav, div#bottomNav {
+div#top_nav, div#bottom_nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.3cm;
 }
 
-div#topNav a, div#bottomNav a {
+div#top_nav a, div#bottom_nav a {
     color: white;
     text-decoration: none;
     transition: background-color 0.4s;
 }
 
-div#topNav a:hover, div#bottomNav a:hover {
+div#top_nav a:hover, div#bottomNav a:hover {
     background-color: grey; 
     border-radius: 0.2cm;
 }
 
-div#topNav input[type="text"] {
+div#top_nav input[type="text"] {
     padding: 0.35cm;
     width: 5cm;
     border: none;
@@ -80,13 +80,13 @@ div#topNav input[type="text"] {
 }
 
 
-div#bottomNav a {
+div#bottom_nav a {
     background-color: rgb(9, 143, 177);
     border-radius: 0.2cm;
     
 }
 
-div#bottomNav a:hover {
+div#bottom_nav a:hover {
     background-color: grey;
 }
 
@@ -120,8 +120,6 @@ div#bottomNav a:hover {
 }
 
 
-
-
 .first_section {
     width: 100%;
 }
@@ -139,8 +137,6 @@ div#bottomNav a:hover {
     object-position: 100% 60%;
     display: block;
 }
-
-
 
 
 .second_section {
@@ -246,6 +242,13 @@ div#bottomNav a:hover {
     width: 30%;
     margin: 0.15cm;
     background-color: rgb(35, 72, 173);
+    overflow: hidden;
+}
+
+.video_part video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
 }
 
 
@@ -254,6 +257,13 @@ div#bottomNav a:hover {
     width: 40%;
     background-color: rgb(35, 72, 173);
     margin: 0.15cm;
+    overflow: hidden;
+}
+
+.text7_part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
 }
 
 .feed_part {
