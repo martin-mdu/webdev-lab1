@@ -8,7 +8,7 @@ body {
     background-color: #222222;
     font-family: 'Courier New', Courier, monospace;
     color: #DDDDDD;
-    margin-top: 0.3cm;  
+    margin-top: 0.3cm;
     margin-left: 3cm;
     margin-right: 3cm;
     margin-bottom: 0.3cm;
@@ -21,7 +21,7 @@ body {
 }
 
 
-span#circle{
+span#circle {
     float: left;
     border-radius: 50%;
     margin-left: 0.5cm;
@@ -34,10 +34,10 @@ span#circle img {
     border-radius: 50%;
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
-span#links_place{
+span#links_place {
     float: right;
     height: 2cm;
     width: 65%;
@@ -54,21 +54,24 @@ a:link {
     margin-right: 0.1cm;
 }
 
-div#top_nav, div#bottom_nav {
+div#top_nav,
+div#bottom_nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.3cm;
 }
 
-div#top_nav a, div#bottom_nav a {
+div#top_nav a,
+div#bottom_nav a {
     color: white;
     text-decoration: none;
     transition: background-color 0.4s;
 }
 
-div#top_nav a:hover, div#bottomNav a:hover {
-    background-color: grey; 
+div#top_nav a:hover,
+div#bottomNav a:hover {
+    background-color: grey;
     border-radius: 0.2cm;
 }
 
@@ -83,7 +86,7 @@ div#top_nav input[type="text"] {
 div#bottom_nav a {
     background-color: rgb(9, 143, 177);
     border-radius: 0.2cm;
-    
+
 }
 
 div#bottom_nav a:hover {
@@ -98,7 +101,7 @@ div#bottom_nav a:hover {
 }
 
 .top_right {
-    width: 80%; 
+    width: 80%;
     text-align: end;
     align-content: center;
 }
@@ -141,7 +144,7 @@ div#bottom_nav a:hover {
 
 .second_section {
     width: 100%;
-    display: flex;     
+    display: flex;
 }
 
 .events_part {
@@ -149,6 +152,7 @@ div#bottom_nav a:hover {
     height: 5cm;
     background-color: rgb(35, 72, 173);
     margin: 0.15cm;
+    overflow: hidden;
 }
 
 #events_tab {
@@ -182,10 +186,35 @@ div#bottom_nav a:hover {
 
 
 .news2_part {
+    position: relative;
     width: 30%;
     height: 5cm;
-    background-color: rgb(35, 72, 173);
     margin: 0.15cm;
+    background-image: url(pexels-sarmad-mughal-94606-305070.png);
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.news2_textbox {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 0.15cm;
+    max-height: 20%;
+    overflow-y: auto;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.news2_textbox p {
+    margin: 0.15cm;
+}
+
+.news2_part:hover .news2_textbox {
+    max-height: 100%;
 }
 
 .text5_part {
@@ -194,6 +223,7 @@ div#bottom_nav a:hover {
     margin: 0.15cm;
     background-color: rgb(35, 72, 173);
     display: flex;
+    overflow: hidden;
 }
 
 .part5_img_div {
@@ -236,7 +266,7 @@ div#bottom_nav a:hover {
 
 .third_section {
     width: 100%;
-    display: flex;     
+    display: flex;
 }
 
 
@@ -251,7 +281,7 @@ div#bottom_nav a:hover {
 .video_part video {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 
@@ -266,7 +296,7 @@ div#bottom_nav a:hover {
 .text7_part img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .feed_part {
