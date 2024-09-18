@@ -355,6 +355,20 @@ div#bottom_nav a:hover {
 .part5_img_div {
     width: 50%;
     overflow: hidden;
+    position: relative;
+}
+
+.triangle {
+    float: right;
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 30px solid rgb(35, 72, 173);
+	border-bottom: 25px solid transparent;
+
 }
 
 
