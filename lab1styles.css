@@ -239,7 +239,7 @@ div#bottom_nav a:hover {
 }
 
 .events_part {
-    width: 30%;
+    width: 33%;
     height: 5cm;
     background-color: rgb(35, 72, 173);
     margin: 0.15cm;
@@ -280,7 +280,7 @@ div#bottom_nav a:hover {
 
 .news2_part {
     position: relative;
-    width: 30%;
+    width: 33%;
     height: 5cm;
     margin: 0.15cm;
     background-image: url(pexels-sarmad-mughal-94606-305070.jpg);
@@ -331,7 +331,7 @@ div#bottom_nav a:hover {
 
 
 .text5_part {
-    width: 40%;
+    width: 66%;
     height: 5cm;
     margin: 0.15cm;
     background-color: rgb(35, 72, 173);
@@ -412,7 +412,7 @@ div#bottom_nav a:hover {
 
 .video_part {
     height: 10cm;
-    width: 30%;
+    width: 33%;
     margin: 0.15cm;
     background-color: rgb(35, 72, 173);
     overflow: hidden;
@@ -427,7 +427,7 @@ div#bottom_nav a:hover {
 
 .text7_part {
     height: 10cm;
-    width: 40%;
+    width: 66%;
     background-color: rgb(35, 72, 173);
     margin: 0.15cm;
     overflow: hidden;
@@ -441,7 +441,7 @@ div#bottom_nav a:hover {
 
 .feed_part {
     height: 10cm;
-    width: 30%;
+    width: 33%;
     background-color: rgba(0, 0, 0, 1);
     margin: 0.15cm;
     overflow: hidden;
