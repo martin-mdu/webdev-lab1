@@ -154,7 +154,6 @@ div#bottom_nav a:hover {
 .first_section * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
@@ -182,6 +181,16 @@ div#bottom_nav a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.news1_title {
+    background-color: rgba(35, 72, 173, 0.4);
+    text-align: center;
+    position: absolute;
+    float: left;
+    right: 0;
+    top: 70%;
+    width: 100%;
 }
 
 .text {
@@ -297,6 +306,7 @@ div#bottom_nav a:hover {
     max-height: 40%;
     overflow-y: auto;
     transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
 }
 
 .titletab {
@@ -427,7 +437,7 @@ div#bottom_nav a:hover {
 
 .text7_part {
     height: 10cm;
-    width: 66%;
+    width: 65%;
     background-color: rgb(35, 72, 173);
     margin: 0.15cm;
     overflow: hidden;
