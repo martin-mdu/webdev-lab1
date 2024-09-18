@@ -215,6 +215,8 @@ div#bottom_nav a:hover {
 }
 
 
+
+
 .second_section {
     width: 100%;
     display: flex;
@@ -258,6 +260,8 @@ div#bottom_nav a:hover {
 }
 
 
+
+
 .news2_part {
     position: relative;
     width: 30%;
@@ -274,21 +278,41 @@ div#bottom_nav a:hover {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #333;
-    padding: 0.15cm;
-    max-height: 20%;
+    max-height: 40%;
     overflow-y: auto;
     transition: max-height 0.5s ease-in-out;
 }
 
-.news2_textbox p {
-    margin: 0.15cm;
+.titletab {
+    width: 100%;
+    height: 0.5cm;
+    display: flex;
+}
+
+.bluetab_n2 {
+    width: 50%;
+    background-color: rgba(35, 72, 173, 0.8);
+}
+
+.transparentdiv_n2 {
+    width: 50%;
+    background-color: rgba(1, 1, 1, 0);
+}
+
+
+
+.texttextbox_n2 {   
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
 }
 
 .news2_part:hover .news2_textbox {
     max-height: 100%;
 }
+
+
+
 
 .text5_part {
     width: 40%;
