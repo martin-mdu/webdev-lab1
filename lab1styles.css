@@ -30,12 +30,28 @@ span#circle {
     height: 2cm;
 }
 
+
+
 span#circle img {
     border-radius: 50%;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+span#share_span {
+    width: 1cm;
+    height: 1cm;
+    float: left;
+    border-radius: 50%;
+}
+
+span#share_span img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;    
+}
+
 
 span#links_place {
     float: right;
@@ -321,6 +337,19 @@ div#bottom_nav a:hover {
     background-color: rgb(35, 72, 173);
     display: flex;
     overflow: hidden;
+    margin-bottom: 0.25cm;
+}
+
+.text5_part :any-link {
+    align-content: center;
+    color: black;
+    background-color: white;
+    border-radius: 0.25cm;
+    margin-right: 0.65cm;
+}
+
+.text5_part :any-link:hover {
+    background-color: rgb(174, 174, 174);
 }
 
 .part5_img_div {
