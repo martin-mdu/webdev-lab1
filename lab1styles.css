@@ -158,6 +158,7 @@ div#bottom_nav a:hover {
 
 
 
+
 .news_part {
     height: 5cm;
     overflow: hidden;
@@ -167,12 +168,12 @@ div#bottom_nav a:hover {
 
 .image-panel {  
     display: flex;
-    width: calc(100% * 3);
-    animation: slide 50s infinite;
+    width: 100%;
+    animation: slide 20s infinite;
 }
 
 .image-item {
-    width: calc(100% / 3);
+    width: 100%;
     position: relative;
     flex-shrink: 0;
 }
@@ -205,37 +206,25 @@ div#bottom_nav a:hover {
 
 @keyframes slide {
     0% {
-        transform: translateX(0);
-    }
-    10% {
         transform: translateX(0%);
     }
-    20% {
-        transform: translateX(-33.333%);
+    16.667% {
+        transform: translateX(0%);
     }
-    30% {
-        transform: translateX(-33.333%);
-    }
-    40% {
-        transform: translateX(-66.666%);
+    33.333% {
+        transform: translateX(-100%);
     }
     50% {
-        transform: translateX(-66.666%);
-    }
-    60% {
         transform: translateX(-100%);
     }
-    70% {
-        transform: translateX(-100%);
+    66.667% {
+        transform: translateX(-200%);
     }
-    80% {
-        transform: translateX(-133.333%);
-    }
-    90% {
-        transform: translateX(-133.333%);
+    83.333% {
+        transform: translateX(-200%);
     }
     100% {
-        transform: translateX(-166.666%);
+        transform: translateX(-300%);
     }
 }
 
